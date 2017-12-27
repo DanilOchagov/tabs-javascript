@@ -19,7 +19,7 @@
     position: relative;
     z-index: 1;
 }
-.tab .activeTab{
+.activeTab{
     border:1px solid red;
 }
 .tabContent{
