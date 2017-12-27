@@ -1,0 +1,39 @@
+/*show = показывает контент вкладки*/
+/*hide = скрывает контент вкладки*/
+/*activeTab = стлизует активную таб-вкладку*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#tabs{
+    margin: 50px;
+}
+.tab{
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    border:1px solid silver;
+    text-align: center; 
+    position: relative;
+    z-index: 1;
+}
+.tab .activeTab{
+    border:1px solid red;
+}
+.tabContent{
+    height: 220px;
+    line-height: 220px;
+    width: 350px;
+    border:1px solid silver;
+    margin-top: -1px;
+    position: absolute;
+    text-align: center;
+}
+#tabs .hide{
+    display: none;
+}
+#tabs .show{
+    display: block;
+}
